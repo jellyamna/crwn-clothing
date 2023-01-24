@@ -1,0 +1,37 @@
+1. npx create-react-app crwn-clothing
+2. clear code pada App.js
+3. delete app.css
+4. perhatikan cara return di file . jsx dan file.js
+return (
+    <div className="categories-container">
+      {categories.map(({ title, id }) => (
+        <div className="category-container" key={id}> //harus ada div pembungkuss.
+          <div className="background-image" />
+          <div className="category-body-container">
+            <h2>{title}</h2>
+            <p>Shop Now</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
+
+  jadi return di object javascirp pake return {
+
+  }, sedangkan return di html pake return (
+    <div>
+    {.....}
+    </div>
+  )
+
+
+  5. -> yarn add sass 
+  untuk menambahkan sass supaya supoort ke app kita.
+
+  6. -> saatnya commit ke git: ingat satu repo(atau url project) itu yang di bagi- bagi ke programmer lain dengan di siapkan branch
+  nah branch yang akan di push ke prod adalah yang main. sedangkan branch lain itu adalah masing-masing programmer.
+
+  fork adalah mengcopy satu project ke project kita.
+
+  1. git init --> initiation dulu jika blm pernah .
