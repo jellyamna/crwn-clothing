@@ -34,4 +34,20 @@ return (
 
   fork adalah mengcopy satu project ke project kita.
 
-  1. git init --> initiation dulu jika blm pernah .
+    1. git init --> initiation dulu jika blm pernah .
+    2. git add . --> add semua file ke stating area(local)
+    3. git remote add origin https://github.com/jellyamna/crwn-clothing.git
+    4. git branch -M main
+    5. git commit -m "1_commit pertama"
+    6. git log --all --decorate --oneline --graph  --> liat log g 
+    7. git branch --> check branch yang aktif
+
+    …or push an existing repository from the command line 9(pake ini )
+    git remote add origin https://github.com/jellyamna/crwn-clothing.git
+    git branch -M main
+    git push -u origin main
+
+7. file .lock menyimpan version libray yang di gunakan.( biasanya nya satu, karna kita mengunakan yarn maka package-json.lock ngak prelude)
+8. yarn add react-router-dom@6 ->untuk install router.
+
+9. yarn add firebase --> untuk keperluan authentication.
